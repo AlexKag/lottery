@@ -1,0 +1,21 @@
+<?php
+
+use yii\db\Schema;
+use common\rbac\Migration;
+
+class m161111_090000_init_permissions extends Migration
+{
+
+    const LEADER_REF_PAYEMNT = 'getLeaderRefPayment';
+    public function up()
+    {
+        $getLeaderRefPayment = $this->auth->createPermission(static::LEADER_REF_PAYEMNT);
+        $this->auth->add($getLeaderRefPayment);
+    }
+
+    public function down()
+    {
+        $this->auth->remove($this->auth->getPermission(static::LEADER_REF_PAYEMNT));
+    }
+
+}

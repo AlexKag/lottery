@@ -1,0 +1,102 @@
+{
+    "name": "trntv/yii2-starter-kit",
+    "description": "FreedomLOTTO",
+    "keywords": [
+        "lottery"
+    ],
+    "authors": [
+        {
+            "name": "FreedomLOTTO",
+            "homepage": "http://freedom-lotto.com",
+            "role": "Developer"
+        }
+    ],
+    "type": "project",
+    "license": "BSD-3-Clause",
+    "support": {
+        "issues": "https://github.com/trntv/yii2-starter-kit/issues?state=open",
+        "source": "https://github.com/trntv/yii2-starter-kit"
+    },
+    "require": {
+        "php": ">=5.5.0",
+        "ext-intl": "*",
+        "yiisoft/yii2": "^2.0.7",
+        "yiisoft/yii2-bootstrap": "^2.0.0",
+        "yiisoft/yii2-swiftmailer": "^2.0.0",
+        "yiisoft/yii2-authclient": "^2.0.0",
+        "yiisoft/yii2-jui": "^2.0.0",
+        "asofter/yii2-imperavi-redactor": "dev-master@dev",
+        "mihaildev/yii2-elfinder": "^1.0",
+        "trntv/yii2-aceeditor": "^2.0",
+        "trntv/probe": "^0.2",
+        "trntv/yii2-file-kit": "^1.0.0",
+        "trntv/yii2-glide": "^1.0.0",
+        "trntv/yii2-datetime-widget": "^1.0.0",
+        "trntv/cheatsheet": "^0.1@dev",
+        "trntv/yii2-command-bus": "^2.0",
+        "intervention/image": "^2.1",
+        "vlucas/phpdotenv": "^2.0",
+        "bower-asset/admin-lte": "^2.0",
+        "bower-asset/font-awesome": "^4.0",
+        "bower-asset/html5shiv": "^3.0",
+        "bower-asset/jquery-slimscroll": "^1.3",
+        "bower-asset/flot": "^0.8",
+        "symfony/process": "^3.0",
+        "kartik-v/yii2-icons": "@dev",
+        "borales/yii2-phone-input": "*",
+        "himiklab/yii2-recaptcha-widget": "*",
+        "kartik-v/yii2-widget-touchspin": "*",
+        "kartik-v/yii2-widget-growl": "*",
+        "kartik-v/yii2-widget-alert": "*",
+        "kartik-v/yii2-widget-activeform": "*",
+        "kartik-v/yii2-money": "*",
+        "kartik-v/yii2-export": "*",
+        "kop/yii2-scroll-pager": "dev-master",
+        "wbraganca/yii2-dynamicform": "*",
+        "yii-dream-team/yii2-perfect-money": "dev-master",
+        "yii-dream-team/yii2-payeer": "dev-master",
+        "ricco/yii2-ticket": "1.0.4",
+        "cybercog/yii2-google-analytics": "*",
+        "dkushnikov/yii2-yandex-metrika": "*",
+        "bower-asset/bootbox": "*",
+        "bower-asset/jquery.easing": "*",
+        "sonata-project/google-authenticator": "dev-master",
+        "npm-asset/tether": "^1.0.0",
+        "npm-asset/tether-select": "^1.0.0",
+        "bower-asset/jquery.countdown": "*",
+        "jquery_jslots": "*"
+    },
+    "require-dev": {
+        "yiisoft/yii2-debug": "^2.0.0",
+        "yiisoft/yii2-gii": "^2.0.0",
+        "yiisoft/yii2-faker": "^2.0.0",
+        "codeception/codeception": "2.1.*",
+        "codeception/specify": "*",
+        "codeception/verify": "*"
+    },
+    "suggest": {
+        "trntv/yii2-debug-xhprof": "dev-master@dev"
+    },
+    "config": {
+        "process-timeout": 1800
+    },
+    "extra": {
+        "asset-installer-paths": {
+            "npm-asset-library": "vendor/npm",
+            "bower-asset-library": "vendor/bower"
+        }
+    },
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "name": "jquery_jslots",
+                "version": "1.0",
+                "source": {
+                    "url": "https://github.com/heleifz/jQuery-jSlots.git",
+                    "type": "git",
+                    "reference": "master"
+                }
+            }
+        }]
+}
